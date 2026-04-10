@@ -54,6 +54,16 @@ body {
     border-style: solid;
     border-width: 1vh;
     border-color: white;
+    
+}
+
+#logo2 {
+    background-color: white;
+    border-radius: 30%;
+    width: 5vh;
+    margin-left: 8vh;
+    border-style: solid;
+    border-color: white;
 }
 
 .voltar {
