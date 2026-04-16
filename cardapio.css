@@ -17,6 +17,10 @@ body {
 
 #container {
   padding: 2.7vh;
+  align-items: center;
+  display: inline-block;
+  padding-top: 2.2vh;
+  padding-bottom: 0;
 }
 
 #pesquisa {
@@ -34,6 +38,29 @@ body {
   font-size: 1.8vh;
   color: #999;
   width: 32vh;
+}
+
+#linha {
+    background-color: #00914d;
+    height: 0.1vh;
+    width: 44vh;
+    display: inline-block;
+    align-items: center;
+}
+
+#img-pizza {
+    height: 4vh;
+    width: 30vh;
+}
+
+#texto {
+  color: #FFA705;
+  -webkit-text-stroke: 0.78px #be0411;
+  font-family: "Moul", sans-serif;
+  font-size: 1.8vh;
+  font-weight: 400;
+  float: left;
+  margin-left: 1.5vh;
 }
 
 .voltar {
