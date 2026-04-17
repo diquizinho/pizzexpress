@@ -40,7 +40,7 @@ body {
   width: 32vh;
 }
 
-#linha {
+.linha {
     background-color: #00914d;
     height: 0.1vh;
     width: 44vh;
@@ -49,18 +49,37 @@ body {
 }
 
 #img-pizza {
-    height: 4vh;
-    width: 30vh;
+    height: 10vh;
+    width: 33.5vh;
+    border-radius: 2vh;
+    margin: 1.5vh;
+}
+
+#garfo-e-faca-img {
+    height: 3vh;
+    margin-top: 0.3vh;
+}
+
+#botao-cardapio {
+    border-radius: 5vh;
+    background-color: #be0411;
+    font-family: "Moulpali", sans-serif;
+    font-size: 2vh;
+    letter-spacing: 0.003vh;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0px 4px 4.5px rgba(0, 0, 0, 0.3);
 }
 
 #texto {
   color: #FFA705;
-  -webkit-text-stroke: 0.78px #be0411;
+  -webkit-text-stroke: 0.04vh #be0411;
   font-family: "Moul", sans-serif;
-  font-size: 1.8vh;
-  font-weight: 400;
+  font-size: 1.7vh;
+  font-weight: 900;
   float: left;
   margin-left: 1.5vh;
+  margin-bottom: 0;
 }
 
 .voltar {
