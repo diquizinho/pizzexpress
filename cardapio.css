@@ -17,33 +17,42 @@ body {
 
 #container {
   padding: 2.7vh;
-  align-items: center;
+  align-items: baseline;
   display: inline-block;
   padding-top: 2.2vh;
   padding-bottom: 0;
 }
 
 #pesquisa {
-  align-items: center;
+  position: relative;
   background: #d9d1c5;
   border-radius: 50px;
   padding: 15px 25px;
   max-width: 34vh;
 }
 
+#icone-pesquisa {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2vh;
+}
+
 #pesquisa input {
   border: none;
   outline: none;
   background: transparent;
-  font-size: 1.8vh;
+  font-size: 1.6vh;
   color: #999;
+  padding-left: 20px;
   width: 32vh;
 }
 
 .linha {
     background-color: #00914d;
     height: 0.1vh;
-    width: 44vh;
+    width: 94%;
     display: inline-block;
     align-items: center;
     margin: 0;
@@ -54,11 +63,13 @@ body {
     width: 33.5vh;
     border-radius: 3vh;
     margin: 1.5vh;
+    user-select: none;
 }
 
 #garfo-e-faca-img {
     height: 3vh;
     margin-top: 0.3vh;
+    margin-bottom: -0.5vh;
 }
 
 #botao-cardapio {
@@ -81,6 +92,7 @@ body {
   float: left;
   margin-left: 1.5vh;
   margin-bottom: -1.4vh;
+  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 }
 
 .opcoes-pizza {
@@ -90,8 +102,11 @@ body {
     border-radius: 3vh;
     border-color: #00914d;
     border-style: solid;
+    margin-left: 0.8vh;
+    margin-bottom: 1vh;
     display: inline-block;
-    align-items: center;
+    vertical-align: top;
+    user-select: none;
 }
 
 .opcoes-pizza h4 {
@@ -100,13 +115,21 @@ body {
     font-size: 1.4vh;
     -webkit-text-stroke: 0.1px #be0411;
     margin-bottom: 0vh;
-    margin-top: 3vh;
+    margin-top: 2.2vh;
+    user-select: none;
+}
+
+#texto-frango-catupiry {
+    font-size: 1.14vh;
+    margin-top: 1.5vh;
+    margin-bottom: -0.7vh
 }
 
 .pizza-ilustracao {
     height: 12vh;
     margin-bottom: -15px;
-    margin-top: 30px;
+    margin-top: 26px;
+    user-select: none;
 }
 
 .botao-vermais {
@@ -116,7 +139,7 @@ body {
     border-radius: 3vh;
     display: inline-block;
     align-items: center;
-    margin-top: 1vh;
+    margin-top: 2vh;
 }
 
 .botao-vermais h4 {
@@ -128,12 +151,6 @@ body {
     margin-top: 0.8vh;
     margin-bottom: 2vh;
     user-select: none;
-}
-
-.voltar {
-    float: left;
-    margin: 1.2vh 0vh 0vh 1.2vh;
-    width: 5.4vh;
 }
 
 .menu  {
