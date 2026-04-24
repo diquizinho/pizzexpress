@@ -94,7 +94,9 @@ body {
   margin-bottom: -1.4vh;
   text-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
 }
-
+#pizzas {
+    
+}
 .opcoes-pizza {
     height: 27vh;
     width: 18.7vh;
